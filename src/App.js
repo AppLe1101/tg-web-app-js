@@ -1,6 +1,6 @@
 import './App.css';
 import {useEffect} from "react";
-
+let tg = window.Telegram.WebApp;
 
 function App() {
 
