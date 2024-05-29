@@ -11,6 +11,7 @@ const ranks = [
     { name: 'Master', points: 50000000 },
     { name: 'Grandmaster', points: 100000000 },
 ];
+let currentRank = document.getElementById('rank');
 
 export function Rank() {
 
@@ -18,7 +19,7 @@ export function Rank() {
         for (let i = ranks.length - 1; i >= 0; i--) {
             if (coins >= ranks[i].points && currentRankIndex < i) {
                 currentRankIndex = i;
-                document.getElementById('rank').textContent = `${ranks[i].name}`;
+                currentRank.textContent = `${ranks[i].name}`;
                 break;
             }
         }

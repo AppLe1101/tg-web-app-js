@@ -22,9 +22,10 @@ const Header = () => {
             <span className={'username'}>
                 {user?.first_name}
             </span>
-            <span className={'rank'} id={'rank'}>
+            <span className={'rank-i'} id={'rank-i'}>
                 {currentRankIndex}
             </span>
+            <h1 id={'rank'}>None...</h1>
         </div>
     );
 };
