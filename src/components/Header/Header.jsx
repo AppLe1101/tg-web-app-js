@@ -11,8 +11,8 @@ const Header = () => {
     const onClose = () => {
         tg.close();
     }
-    let coinsPerClick = 1;
-    let autoEarningPerSeconds = 0;
+    /*let coinsPerClick = 1;
+    let autoEarningPerSeconds = 0;*/
 
 
 
